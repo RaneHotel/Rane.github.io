@@ -1,0 +1,54 @@
+#schritt_1 {
+ display: block;
+}
+ 
+#schritt_2 {
+ display: none;
+}
+
+div.schritte { 
+ padding: 0 10px;
+}
+ 
+div.schritte p#anweisung {
+ margin: 0;
+ padding: 0;
+ font-size: 16px;
+ font-family: Ubuntu;
+}
+
+#schritt_2 #videolink {
+ width: 70%;
+ height: 30px;
+ border: 1px solid rgba(0,0,0,0.4);
+ border-radius: 4px;
+ box-shadow: inset 0px 1px 10px 0px rgba(0,0,0,0.1), 0px 0px 4px 0px rgba(0,0,0,0.1);
+ outline: 0;
+ font-family: Segoe UI Light;
+ font-size: 16px;
+ text-align: center;
+}
+
+#schritt_2 #videolink:focus {
+ box-shadow: inset 0px 1px 10px 0px rgba(0,0,0,0.1), 0px 0px 10px 5px rgba(0,0,0,0.1);
+ outline: 0; 
+}
+ 
+#schritt_2 #absenden {
+ height: 25px;
+ width: 45px;
+ background: #E2E2E2;
+ border: 1px solid #919191; 
+ border-radius: 4px;
+ font-family: Segoe UI Light;
+ font-weight: bold;
+ text-shadow: 0px 1px 0px white;
+ box-shadow: inset 0px 3px 0px 0px white, inset 0px -10px 0px 0px #D9D9D9;
+ line-height: 0;
+ outline: none;
+}
+
+#schritt_2 #absenden:hover {
+ box-shadow: inset 0px 3px 0px 0px white, inset 0px -10px 0px 0px #D9D9D9, 0px 0px 10px 0px rgba(0,0,0,0.1);
+ cursor: pointer;
+}
