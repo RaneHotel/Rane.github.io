@@ -1,0 +1,188 @@
+body#client {
+    background-color: black;
+    background-image: none !important;
+    color: white;
+    text-align: left;
+}
+.info-client_error-text {
+    float: left;
+    width: 190px;
+}
+.retry-enter-hotel {
+    float: right;
+}
+body.client_error {
+    background-color: black;
+    background-image: none;
+}
+body.client_error .process-template-box {
+    background-color: black;
+}
+body.client_error #process-content {
+    margin-top: 88px;
+}
+body#popup.client_error div.centered-client-error #column1 {
+    float: none;
+    margin: 0 auto;
+}
+body.client_error li.client_error {
+    font-weight: bold;
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-bottom: 11px;
+}
+body.client_error li.client_error span {
+    font-weight: normal;
+}
+html, body.flashclient {
+    height: 100%;
+}
+#flash-wrapper {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#flash-container #content, #minimail-report {
+    color: #333333;
+}
+.contains-minimail {
+    width: 460px;
+}
+.contains-news {
+    width: 400px;
+}
+.contains-avatars {
+    width: 342px;
+}
+.contains-roomenterad {
+    width: 740px;
+}
+.client-habblet-container.contains-roomenterad {
+    width: 740px;
+}
+.client-habblet-container {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.loading-element {
+    background-color: #FFFFFF;
+    height: 70px;
+    padding-top: 15px;
+    text-align: center;
+    width: 145px;
+}
+.loading-element p {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.draggable .title {
+    cursor: move;
+}
+.x-workaround .client-habblet-container {
+    position: static;
+    right: auto;
+    top: auto;
+}
+.x-workaround .client-habblet-container .title {
+    cursor: default;
+}
+#client-ui {
+    height: 100%;
+    position: relative;
+}
+#client-ui.x-workaround {
+    background-color: #E3E3DB;
+    background-image: url("/gallery/imgs/oldschool_hintergrund.png");
+}
+#client-ui.x-workaround #flash-wrapper {
+    right: 465px;
+}
+#client-ui.x-workaround-wide #flash-wrapper {
+    right: 765px;
+}
+#client-ui.x-workaround-feed {
+    background-color: #000000;
+}
+#client-ui.x-workaround-feed #flash-wrapper {
+    right: auto;
+    width: 57px;
+}
+#client-ui.embed #flash-wrapper {
+    top: 35px;
+}
+.client-content {
+    color: #000000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.embed .client-content {
+    top: 37px;
+}
+#applifier-container {
+    height: 76px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.applifier #embed-topbar {
+    top: 76px;
+}
+.applifier #client-ui.embed #flash-wrapper {
+    top: 111px;
+}
+#external-link-container {
+    background-color: #FFFFFF;
+    border: 3px solid #FFAA5F;
+    margin: 0 auto;
+    padding: 15px 15px 5px;
+    right: 0;
+    width: 410px;
+}
+#external-link-container h2 {
+    border-bottom: 1px solid #AAAAAA;
+    margin: 0 0 20px;
+    padding-bottom: 5px;
+}
+.contains-externalLink {
+    width: 450px;
+}
+#fb-like-container {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 10px 10px 5px;
+    right: 0;
+}
+.contains-fbLike {
+    height: 187px;
+    width: 410px;
+}
+::-webkit-scrollbar-thumb {
+  width: 8px; 
+  height: 8px;
+  background-color: #E2E2E2;
+  border-radius: 2em; 
+  -moz-border-radius: 2em;
+  -webkit-border-radius: 2em;
+  border: 1px solid #000;
+  -moz-box-shadow: 0 3px 1px #FFF inset;
+  -webkit-box-shadow: 0 3px 1px #FFF inset;
+  box-shadow: 0 3px #fff inset, 0 -3px #c9c9c9 inset;
+  text-shadow: 0px 1px 1px white;
+}
+
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px;
+  border-radius: 4px;
+  -moz-border-radius: 4px,
+  -webkit-border-radius: 4px;  
+  background-color: gray; 
+  border: 1px solid black; 
+}
